@@ -13,7 +13,7 @@
         <div class="popup__wrap">
             <div class="title">
                 <h2>ваш фидбэк</h2>
-                <form class="form">
+                <div class="form">
                     <div class="form__group">
                         <label class="select-group">
                             <span class="select-label">Как часто вы заходите на сайт?</span>
@@ -25,29 +25,30 @@
                         </select>
                         </label>
                     </div>
-                </form>
-                <form class="subscr" <label class="subscribe">
+                </div>
+                <div class="subscr"></div>
+                <label class="subscribe">
                 <div class="subscribe-title">Вы подписаны на e-mail рассылку?</div>
             </label>
                 <label class="radiobtn">
-                    <input class="rb" type="radio">
+                    <input class="rb" type="radio" name="yes-no">
                     <div class="yes"></div>Да
                 </label>
                 <label class="radiobtn">
-                    <input class="rb" type="radio">
+                    <input class="rb" type="radio" name="yes-no">
                     <div class="yes"></div>Нет
                 </label>
-                </form>
-                <form class="about">
+                </div>
+                <div class="aboout">
                     <label class="about-title">
                         <div>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</div>
                         <textarea class="about-field" placeholder="Может, больше рецептов?"></textarea>
                     </label>
-                </form>
+                </div>
                 <button class="btn" type="submit">отправить</button>
             </div>
         </div>
-    </div>
+    </form>
 </div>
 
 
@@ -102,13 +103,13 @@
                  <div class="cont">
                      <ul>
                         <li class="cont__item">
-                             <a href="/">lifestyle</a>
+                             <a class="item-link" href="/">lifestyle</a>
                         </li>
                         <li class="cont__item">
-                            <a href="/">interior</a>
+                            <a class="item-link" href="/">interior</a>
                         </li>
                     </ul>
-                        <h2>сейчас в тренде: сад на подоконнике</h2>
+                        <h2><a class="cont-link" href="#">сейчас в тренде: сад на подоконнике</a></h2>
                 </div>
         </div>
     </div>
@@ -117,13 +118,13 @@
             <div class="cont">
                 <ul>
                     <li class="cont__item">
-                        <a href="/">food</a>
+                        <a class="item-link" href="/">food</a>
                     </li>
                     <li class="cont__item">
-                        <a href="/"></a>
+                        <a class="item-link" href="/"></a>
                     </li>
                 </ul>
-                <h2>сыры на красивых картинках из интернета: какие они на вкус? </h2>
+                <h2><a class="cont-link" href="#">сыры на красивых картинках из интернета: какие они на вкус?</a> </h2>
             </div>
         </div>
     </div>
@@ -132,13 +133,13 @@
             <div class="cont">
                 <ul>
                     <li class="cont__item">
-                        <a href="/">lifestyle</a>
+                        <a class="item-link" href="/">lifestyle</a>
                     </li>
                     <li class="cont__item">
-                        <a href="/">travel</a>
+                        <a class="item-link" href="/">travel</a>
                     </li>
                 </ul>
-                <h2>собираемся в первый поход в горы</h2>
+                <h2><a class="cont-link" href="#"> собираемся в первый поход в горы</a></h2>
             </div>
         </div>
     </div>
@@ -147,13 +148,13 @@
             <div class="cont">
                 <ul>
                     <li class="cont__item">
-                        <a href="/">food</a>
+                        <a class="item-link" href="/">food</a>
                     </li>
                     <li class="cont__item">
-                        <a href="/">health</a>
+                        <a class="item-link" href="/">health</a>
                     </li>
                 </ul>
-                <h2>сейчас в тренде: сколько витамина с в лимонах</h2>
+                <h2><a class="cont-link" href="#"> сейчас в тренде: сколько витамина с в лимонах</a></h2>
             </div>
         </div>
     </div>
@@ -181,7 +182,7 @@
                         </h2>
                         <div class="post-data-text">
                             <span class="data">10 июня 2019</span>
-                            <a class="about" href="#">Неизвестный автор</a>
+                            <a class="data-link" href="#">Неизвестный автор</a>
                         </div>
                         <div class="text-post">
                             <p>Итак вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть?</p></div>
@@ -208,7 +209,7 @@
                         </h2>
                         <div class="post-data-text">
                             <span class="data">10 июня 2019</span>
-                            <a class="about" href="#">Неизвестный автор</a>
+                            <a class="data-link" href="#">Неизвестный автор</a>
                         </div>
                         <div class="text-post">
                             <p>Расскажем какие упражнения выбрать и как сдеалать коврик для занятий йогой из того, что можно найти в шкафу.</p></div>
@@ -232,7 +233,7 @@
                         </h2>
                         <div class="post-data-text">
                             <span class="data">10 июня 2019</span>
-                            <a class="about" href="#">Неизвестный автор</a>
+                            <a class="data-link" href="#">Неизвестный автор</a>
                         </div>
                         <div class="text-post">
                             <p>Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьете свою палатку? Мы составили список лучших летних фестивалей по всему миру.</p></div>
@@ -259,7 +260,7 @@
                         </h2>
                         <div class="post-data-text">
                             <span class="data">10 июня 2019</span>
-                            <a class="about" href="#">Неизвестный автор</a>
+                            <a class="data-link" href="#">Неизвестный автор</a>
                         </div>
                         <div class="text-post">
                             <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p></div>
@@ -289,7 +290,7 @@
                         </h2>
                         <div class="post-data-text">
                             <span class="data">10 июня 2019</span>
-                            <a class="about" href="#" >Неизвестный автор</a>
+                            <a class="data-link" href="#" >Неизвестный автор</a>
                         </div>
                         <div class="text-post">
                             <p>Подушки для дивана целесообразнее заказать в сьемных чехлах на молнии, если потребуется чистка подушек проще снять чехлы, чем везти подушку в химчистку.</p></div>
@@ -453,7 +454,8 @@
                <div class="xbox-pictures">
                     <picture class="xbox-picture">
                         <img class="desktop" src="images/shop-item-desk1.jpg">
-                        <img class="tablet"  src="images/shop-item-tablet1.jpg">
+                        <source  srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+                        <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
                     </picture>
                </div>
                 <div class="xbox-text">
@@ -462,7 +464,7 @@
                     <p>Набор из двух подушек с модными принтами. Видео о создании <span><a href="/">здесь</a>.</span></p>
                     <div class="price">
                         <div class="price-text">
-                            <div>1000₽</div>
+                            <div class="line-throught">1000₽</div>
                             <div>800₽</div>
                         </div>
                         <button><h3>в магазин</h3></button>
@@ -474,7 +476,8 @@
                 <div class="xbox-pictures">
                     <picture class="xbox-picture">
                         <img class="desktop"  src="images/shop-item-desk2.jpg">
-                        <img class="tablet"  src="images/shop-item-tablet2.jpg">
+                        <source  srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+                        <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
                     </picture>
                 </div>
                 <div class="xbox-text">
@@ -494,7 +497,8 @@
                 <div class="xbox-pictures">
                     <picture class="xbox-picture">
                         <img class="desktop" src="images/shop-item-desk3.jpg">
-                        <img class="tablet"  src="images/shop-item-tablet3.jpg">
+                        <source  srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+                        <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
                     </picture>
                 </div>
                 <div class="xbox-text">
@@ -502,7 +506,7 @@
                     <p>Необычная рамка для украшения дома из видео <span><a href="/">&laquo;Как сделать рамку из подручных средств за 30 минут&raquo;</a></span></p>
                     <div class="price">
                         <div class="price-text">
-                            <div>500₽</div>
+                            <div class="line-throught">500₽</div>
                             <div>400₽</div>
                         </div>
                         <button><h3>в магазин</h3></button>
