@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MQ Diploma</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<div class="popupall">
     <div class="popup">
         <button class="topbtn" type="button">X</button>
         <div class="popup__wrap">
@@ -48,37 +48,47 @@
             </div>
         </div>
     </div>
+</div>
+
 
 
 <header class="header">
     <div class="content">
         <div class="menu">
             <a class="logo" href="/">
-                <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" class="header-logo" alt="logo noemi" width="179">
+                <img src="svg/noemi-logo.svg" class="header-logo" alt="logo noemi">
             </a>
 
             <nav>
-                <ul class="menu-list">
-                    <li class="menu-list-item">
-                        <a href="#">Главная</a>
-                    </li>
-                    <li class=" menu-list-item">
-                        <a href="#">Главная</a>
-                    </li>
-                    <li class="menu-list-item">
-                        <a href="#">Посты</a>
-                    </li>
-                    <li class="menu-list-item">
-                        <a href="#">Статьи</a>
-                    </li>
-                    <li class="menu-list-item">
-                        <a href="#">Теги</a>
-                    </li>
-                    <li class="menu-list-item">
-                        <a href="#">Темы</a>
-                    </li>
-                </ul>
+                <div class="nav-item">
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                                <a href="#">Главная</a>
+                        </li>
+                        <li class=" menu-list-item">
+                            <a href="#">Посты</a>
+                        </li>
+                        <li class="menu-list-item">
+                             <a href="#">Статьи</a>
+                        </li>
+                        <li class="menu-list-item">
+                             <a href="#">Теги</a>
+                        </li>
+                         <li class="menu-list-item">
+                            <a href="#">Темы</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bur">
+                    <span class="sp"></span>
+                    <span class="sp"></span>
+                    <span class="sp"></span>
+                </div>
             </nav>
+
         </div>
         <h1>блог о творчестве, спорте, и образе жизни</h1>
     </div>
@@ -88,43 +98,37 @@
 </section>
 <section class="hop">
     <div class="box">
-        <picture>
-            <img src="images/trend1.jpg" alt="сад на подоконике">
-        </picture>
-        <div class="box-img">
-            <div class="cont">
-                <ul>
-                    <li class="cont__item">
-                        <a href="/">lifestyle</a>
-                    </li>
-                    <li class="cont__item">
-                        <a href="/">interior</a>
-                    </li>
-                </ul>
-                <h2>сейчас в тренде: сад на подоконнике</h2>
-            </div>
+        <div class="box-middle">
+                 <div class="cont">
+                     <ul>
+                        <li class="cont__item">
+                             <a href="/">lifestyle</a>
+                        </li>
+                        <li class="cont__item">
+                            <a href="/">interior</a>
+                        </li>
+                    </ul>
+                        <h2>сейчас в тренде: сад на подоконнике</h2>
+                </div>
         </div>
     </div>
-    <div class="box">
-        <picture>
-            <img src="images/trend2.jpg" alt="разные сыры на тарелке">
-        </picture>
-        <div class="box-img">
+    <div class="box second">
+        <div class="box-middle">
             <div class="cont">
                 <ul>
                     <li class="cont__item">
                         <a href="/">food</a>
                     </li>
+                    <li class="cont__item">
+                        <a href="/"></a>
+                    </li>
                 </ul>
-                <h2>сыры на красивых картинках из интернета: какие они на вкус?</h2>
+                <h2>сыры на красивых картинках из интернета: какие они на вкус? </h2>
             </div>
         </div>
     </div>
-    <div class="box">
-        <picture>
-            <img src="images/trend3.jpg" alt="девушка в горах">
-        </picture>
-        <div class="box-img">
+    <div class="box third">
+        <div class="box-middle">
             <div class="cont">
                 <ul>
                     <li class="cont__item">
@@ -138,11 +142,8 @@
             </div>
         </div>
     </div>
-    <div class="box">
-        <picture>
-            <img src="images/trend4.jpg" alt="коробка с лимонами">
-        </picture>
-        <div class="box-img">
+    <div class="box fourth">
+        <div class="box-middle">
             <div class="cont">
                 <ul>
                     <li class="cont__item">
@@ -152,7 +153,7 @@
                         <a href="/">health</a>
                     </li>
                 </ul>
-                <h2>сейчас в тренде: сколько витамина с в лимонах?</h2>
+                <h2>сейчас в тренде: сколько витамина с в лимонах</h2>
             </div>
         </div>
     </div>
@@ -163,7 +164,7 @@
 
             <article class="post">
                 <a class="post-img" href="#">
-                    <img class="post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" alt="прогулка по пляжу" title="человек прогуливается по берегу моря на закате" width="380">
+                    <img class="post-img" src="images/last-post1.jpg" alt="прогулка по пляжу" title="человек прогуливается по берегу моря на закате" width="380">
                 </a>
                 <div class="post-content">
                     <ul class="post-description">
@@ -190,7 +191,7 @@
 
             <article class="post">
                 <a class="post-img" href="#">
-                    <img class="post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="девушка стоит на голове, занимается йогой на пляже" title="йога на пляже" width="380">
+                    <img class="post-img" src="images/last-post2.jpg" alt="девушка стоит на голове, занимается йогой на пляже" title="йога на пляже" width="380">
                 </a>
                 <div class="post-content">
                     <ul class="post-description">
@@ -217,7 +218,7 @@
 
             <article class="post">
                 <a class="post-img" href="#">
-                    <img class="post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="фестиваль, девушка сидит на плечах и танцует" title="девушка на фестивале" width="380">
+                    <img class="post-img" src="images/last-post3.jpg" alt="фестиваль, девушка сидит на плечах и танцует" title="девушка на фестивале" width="380">
                 </a>
                 <div class="post-content">
                     <ul class="post-description">
@@ -241,7 +242,7 @@
 
             <article class="post">
                 <a class="post-img" href="#">
-                    <img class="post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="обеденный стол с едой" title="обеденный стол" width="380">
+                    <img class="post-img" src="images/last-post4.jpg" alt="обеденный стол с едой" title="обеденный стол" width="380">
                 </a>
                 <div class="post-content">
                     <ul class="post-description">
@@ -268,7 +269,7 @@
 
             <article class="post">
                 <a class="post-img" href="#">
-                    <img class="post-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="на кресле лежит подушка с надписью" title="подушка с надписью" width="380">
+                    <img class="post-img" src="images/last-post5.jpg" alt="на кресле лежит подушка с надписью" title="подушка с надписью" width="380">
                 </a>
                 <div class="post-content">
                     <ul class="post-description">
@@ -451,10 +452,12 @@
             <div class="about-xbox">
                <div class="xbox-pictures">
                     <picture class="xbox-picture">
-                        <img src="images/shop-item-desk1.jpg">
+                        <img class="desktop" src="images/shop-item-desk1.jpg">
+                        <img class="tablet"  src="images/shop-item-tablet1.jpg">
                     </picture>
                </div>
                 <div class="xbox-text">
+
                     <h2>подушки на диван</h2>
                     <p>Набор из двух подушек с модными принтами. Видео о создании <span><a href="/">здесь</a>.</span></p>
                     <div class="price">
@@ -462,7 +465,7 @@
                             <div>1000₽</div>
                             <div>800₽</div>
                         </div>
-                        <button>в магазин</button>
+                        <button><h3>в магазин</h3></button>
                     </div>
                 </div>
             </div>
@@ -470,18 +473,19 @@
             <div class="about-xbox">
                 <div class="xbox-pictures">
                     <picture class="xbox-picture">
-                        <img src="images/shop-item-desk2.jpg">
+                        <img class="desktop"  src="images/shop-item-desk2.jpg">
+                        <img class="tablet"  src="images/shop-item-tablet2.jpg">
                     </picture>
                 </div>
                 <div class="xbox-text">
-                    <h2>кукла <<зайчик>></h2>
-                    <p>Интерьерная рукодельная кукла <<Зайчик>>, созданию которой посвящена <span><a href="/">весенняя серия постов</a></span> в блоге и несколько подкастов.</p>
+                    <h2>кукла &laquo;зайчик&raquo;</h2>
+                    <p>Интерьерная рукодельная кукла &laquo;зайчик&raquo;, созданию которой посвящена <span><a href="/">весенняя серия постов</a></span> в блоге и несколько подкастов.</p>
                     <div class="price">
                         <div class="price-text">
                             <div></div><br>
                             <div>3500₽</div>
                         </div>
-                        <button>в магазин</button>
+                        <button><h3>в магазин</h3></button>
                     </div>
                 </div>
             </div>
@@ -489,18 +493,19 @@
             <div class="about-xbox">
                 <div class="xbox-pictures">
                     <picture class="xbox-picture">
-                        <img src="images/shop-item-desk3.jpg">
+                        <img class="desktop" src="images/shop-item-desk3.jpg">
+                        <img class="tablet"  src="images/shop-item-tablet3.jpg">
                     </picture>
                 </div>
                 <div class="xbox-text">
                     <h2>шестиугольная рамка</h2>
-                    <p>Необычная рамка для украшения дома из видео <span><a href="/"><<Как сделать рамку из подручных средств за 30 минут>></a></span></p>
+                    <p>Необычная рамка для украшения дома из видео <span><a href="/">&laquo;Как сделать рамку из подручных средств за 30 минут&raquo;</a></span></p>
                     <div class="price">
                         <div class="price-text">
                             <div>500₽</div>
                             <div>400₽</div>
                         </div>
-                        <button>в магазин</button>
+                        <button><h3>в магазин</h3></button>
                     </div>
                 </div>
             </div>
