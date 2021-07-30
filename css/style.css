@@ -99,7 +99,6 @@ body {
     appearance: none;
     background: #f3f7f6;
     background-image: url("https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/select-arrows.svg");
-
     background-repeat: no-repeat;
     background-position: right 14px center;
     margin-top: 12px;
@@ -248,18 +247,22 @@ body {
     font-size: 13px;
 }
 
-.bur {
+.burger {
     width: 25px;
     height: 19px;
     visibility: hidden;
 }
 
-.sp {
+.burger__line {
     display: block;
     width: 23px;
     height: 3px;
     background-color: white;
     margin-bottom: 5px;
+}
+
+.content__logo {
+    display: none;
 }
 
 .content h1 {
@@ -573,10 +576,7 @@ a {
     margin-left: 18px;
 }
 
-.new-post:  {
-    align-items: center;
-    text-transform: uppercase;
-}
+
 
 .form{
     margin-top: 60px;
@@ -893,13 +893,13 @@ display: flex;
         background-image: url(../images/banner-bg-tablet.jpg);
     }
 
-    .bur {
+    .burger {
         width: 25px;
         height: 19px;
         visibility: visible;
     }
 
-    .sp {
+    .burger__line {
         display: block;
         width: 23px;
         height: 3px;
@@ -922,7 +922,6 @@ display: flex;
 }
 
     .main {
-
         width: 53%;
     }
 
@@ -951,8 +950,6 @@ display: flex;
     .post {
         flex-direction: column;
         margin-top: 16px;
-
-
     }
 
     .post-content {
@@ -966,28 +963,109 @@ display: flex;
 }
 
 @media (max-width: 640px) {
-    .about-xbox {
-        width: 100%;
-        margin-bottom: 25px;
+
+    /*header*/
+
+    .content {
+        max-width: 100%;
+        margin: auto;
+        padding: 0 15px;
     }
 
+    .header {
+        max-width: 100%;
+        background-image: url(../images/banner-mobile.jpg);
+    }
+    .content__logo {
+        display: block;
+        width: 270px;
+        margin: 0 auto;
+
+    }
+    .content h1 {
+        width: 276px;
+        font-family: open-sans-b, sans-serif;
+        text-transform: uppercase;
+        font-size: 25px;
+        padding: 44px 0;
+
+    }
+
+    .content__title {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding-top: 180px;
+    }
+
+
+    .nav-item {
+        display: none;
+    }
+
+    .header-logo {
+        visibility: hidden;
+    }
+
+    .burger {
+        width: 25px;
+        height: 19px;
+        visibility: visible;
+    }
+
+    .burger__line{
+        display: block;
+        width: 23px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+
+    /*section *box*/
     .box {
         width: 100%;
         margin-right: 0;
         margin-bottom: 25px;
     }
 
+    .box:not(:last-child)  {
+        margin-right: 0;
+    }
+
+    /*page main*/
+
     .page-wrap {
         display: flex;
         flex-direction: column;
     }
     .main{
-        max-width: 640px;
+        max-width: 100%;
+    }
+    .post {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .post-content {
+        width: 392px;
+        display: block;
+        border-bottom: 3px  solid  #eeeeee;
+        padding-bottom: 23px;
+        padding-top: 15px;
+    }
+    .aside {
+        max-width: 100%;
+    }
+    /*wrapper*/
+.about {
+    width: 640px;
+}
+    .about-xbox {
+        width: 640px;
+        margin-bottom: 25px;
     }
 
-    .aside {
-        max-width: 640px;
-    }
+
+
 
 
 }
