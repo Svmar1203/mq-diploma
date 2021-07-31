@@ -309,6 +309,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .box {
@@ -322,9 +323,7 @@ body {
 
 }
 
-.box:not(:last-child)  {
-    margin-right: 20px;
-}
+
 
 .second {
     background-image: url(../images/trend2.jpg);
@@ -384,7 +383,7 @@ body {
 }
 
 .page-wrap {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     padding: 0 15px;
     display: flex;
@@ -913,9 +912,7 @@ display: flex;
         margin-bottom: 15px;
     }
 
-    .box:nth-child(even)  {
-        margin-right: 15px;
-    }
+
 
     .page-wrap {
         max-width: 1200px;
@@ -1046,25 +1043,69 @@ display: flex;
         margin-top: 16px;
     }
     .post-content {
-        width: 392px;
+        width: 95%;
         display: block;
         border-bottom: 3px  solid  #eeeeee;
         padding-bottom: 23px;
         padding-top: 15px;
     }
     .aside {
-        max-width: 100%;
+        width: 100%;
     }
     /*wrapper*/
 .about {
-    width: 640px;
+    max-width: 640px;
 }
     .about-xbox {
-        width: 640px;
+        width: 40%;
         margin-bottom: 25px;
     }
 
+    .post-content {
+        margin-left: 5px;
+        margin-bottom: 35px;
+    }
 
+    .post-img {
+        width: 100%;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+
+
+    .text-post {
+        margin-top: 25px;
+    }
+
+
+    .nav-tegs-items {
+        width: 23%;
+
+    }
+
+    .nav-tegs-link {
+        width: 135px;
+        display: block;
+        padding: 7px 15px;
+    }
+
+    .nav-tegs-items {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .topic-items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .desktop {
+        width: 100%;
+    }
 
 
 
