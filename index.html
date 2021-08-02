@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="popupall">
+<form class="popupall">
     <div class="popup">
         <button class="topbtn" type="button">X</button>
         <div class="popup__wrap">
@@ -18,38 +18,39 @@
                         <label class="select-group">
                             <span class="select-label">Как часто вы заходите на сайт?</span>
                         </label>
-                        <select class="select">
-                            <option value="kazdyi den" selected>Почти каждый день</option>
-                            <option value="raz v nedely">Раз в неделю</option>
-                            <option value="raz v mesyc">Раз в месяц</option>
-                        </select>
+                        <label>
+                             <select class="select">
+                                <option value="kazdyi den" selected>Почти каждый день</option>
+                                <option value="raz v nedely">Раз в неделю</option>
+                                <option value="raz v mesyc">Раз в месяц</option>
+                             </select>
                         </label>
                     </div>
                 </div>
-                <div class="subscr"></div>
-                <label class="subscribe">
-                <div class="subscribe-title">Вы подписаны на e-mail рассылку?</div>
-            </label>
-                <label class="radiobtn">
-                    <input class="rb" type="radio" name="yes-no">
-                    <div class="yes"></div>Да
-                </label>
-                <label class="radiobtn">
-                    <input class="rb" type="radio" name="yes-no">
-                    <div class="yes"></div>Нет
-                </label>
+                <div class="subscr">
+                        <label class="subscribe">
+                                <span class="subscribe-title">Вы подписаны на e-mail рассылку?</span>
+                        </label>
+                        <label class="radiobtn">
+                            <input class="rb" type="radio" name="yes-no">
+                            <span class="yes"></span>Да
+                        </label>
+                        <label class="radiobtn">
+                                <input class="rb" type="radio" name="yes-no">
+                                 <span class="yes"></span>Нет
+                        </label>
                 </div>
                 <div class="aboout">
                     <label class="about-title">
-                        <div>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</div>
+                        <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
                         <textarea class="about-field" placeholder="Может, больше рецептов?"></textarea>
                     </label>
                 </div>
                 <button class="btn" type="submit">отправить</button>
             </div>
         </div>
-    </form>
-</div>
+    </div>
+</form>
 
 
 
@@ -364,7 +365,7 @@
                 <div class="section-text">
                     <span class="section-data">14 июня 2019</span>
                     <h3 class="section-title">
-                        <a class="section-link" href="#">лучшие прически для распущенных волmailing-ос</a>
+                        <a class="section-link" href="#">лучшие прически для распущенных волос</a>
                     </h3>
                 </div>
             </section>
@@ -458,9 +459,9 @@
             <div class="about-xbox">
                <div class="xbox-pictures">
                     <picture class="xbox-picture">
-                        <img class="desktop" src="images/shop-item-desk1.jpg">
                         <source  srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
                         <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
+                        <img class="desktop" src="images/shop-item-desk1.jpg" alt="розовая подушка на стуле">
                     </picture>
                </div>
                 <div class="xbox-text">
@@ -472,7 +473,7 @@
                             <div class="line-throught">1000₽</div>
                             <div>800₽</div>
                         </div>
-                        <button><h3>в магазин</h3></button>
+                        <button class="price-button">в магазин</button>
                     </div>
                 </div>
             </div>
@@ -480,9 +481,9 @@
             <div class="about-xbox">
                 <div class="xbox-pictures">
                     <picture class="xbox-picture">
-                        <img class="desktop"  src="images/shop-item-desk2.jpg">
                         <source  srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)">
                         <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
+                        <img class="desktop"  src="images/shop-item-desk2.jpg" alt="кукла зайчик на столе">
                     </picture>
                 </div>
                 <div class="xbox-text">
@@ -493,7 +494,7 @@
                             <div></div><br>
                             <div>3500₽</div>
                         </div>
-                        <button><h3>в магазин</h3></button>
+                        <button class="price-button">в магазин</button>
                     </div>
                 </div>
             </div>
@@ -501,9 +502,9 @@
             <div class="about-xbox">
                 <div class="xbox-pictures">
                     <picture class="xbox-picture">
-                        <img class="desktop" src="images/shop-item-desk3.jpg">
                         <source  srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
                         <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
+                        <img class="desktop" src="images/shop-item-desk3.jpg" alt="красивая шестиугольная рамка">
                     </picture>
                 </div>
                 <div class="xbox-text">
@@ -514,48 +515,51 @@
                             <div class="line-throught">500₽</div>
                             <div>400₽</div>
                         </div>
-                        <button><h3>в магазин</h3></button>
+                        <button class="price-button">в магазин</button>
                     </div>
                 </div>
             </div>
        </article>
     </div>
 </div>
-<footer class="footer">
-    <div class="footer-wrap">
-        <address class="footer-address">
-            <ul class="footer-items">
-                <li class="footer-items-list">
-                    <a class="social-icon social-icon-twitter" href="twitter">
-                        <span class="hidden">Аккаунт в Твиттере</span>
-                    </a>
-                </li>
-                <li class="footer-items-list">
-                    <a class="social-icon social-icon-pinterest" href="pinterest">
-                        <span class="hidden">Аккаунт в Пинтерест</span>
-                    </a>
-                </li>
-                <li class="footer-items-list">
-                    <a class="social-icon social-icon-facebook" href="facebook">
-                        <span class="hidden">Аккаунт в Фэйсбук</span>
-                    </a>
-                </li>
-                <li class="footer-items-list">
-                    <a class="social-icon social-icon-instagram" href="instagram">
-                        <span class="hidden">Аккаунт в Инстаграмм</span>
-                    </a>
-                </li>
+    <footer class="footer">
+        <div class="footer-wrap">
+             <address class="footer-address">
+                    <ul class="footer-items">
+                        <li class="footer-items-list">
+                            <a class="social-icon social-icon-twitter" href="twitter">
+                                <span class="hidden">Аккаунт в Твиттере</span>
+                            </a>
+                        </li>
+                        <li class="footer-items-list">
+                            <a class="social-icon social-icon-pinterest" href="pinterest">
+                                    <span class="hidden">Аккаунт в Пинтерест</span>
+                             </a>
+                        </li>
+                         <li class="footer-items-list">
+                            <a class="social-icon social-icon-facebook" href="facebook">
+                                <span class="hidden">Аккаунт в Фэйсбук</span>
+                            </a>
+                         </li>
+                         <li class="footer-items-list">
+                            <a class="social-icon social-icon-instagram" href="instagram">
+                                 <span class="hidden">Аккаунт в Инстаграмм</span>
+                            </a>
+                         </li>
 
-                <li class="footer-items-list">
-                    <a class="social-icon social-icon-tumblr" href="tumblr">
-                        <span class="hidden">Аккаунт в Тумблер</span>
-                    </a>
-                </li>
-            </ul>
-        </address>
+                         <li class="footer-items-list">
+                            <a class="social-icon social-icon-tumblr" href="tumblr">
+                                 <span class="hidden">Аккаунт в Тумблер</span>
+                             </a>
+                         </li>
+                    </ul>
+             </address>
 
             <a class="copiright" href="#0">
                 <p>Copyright © 2009–2019 City Blog LLC.</p>
             </a>
+        </div>
+    </footer>
+
 </body>
 </html>
