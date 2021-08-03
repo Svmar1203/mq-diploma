@@ -891,6 +891,13 @@ display: flex;
     padding-bottom: 47px;
 }
 
+@media (min-width: 641px), (orientation: landscape) and (max-width: 1200px) {
+    .box {
+        width: 23%;
+    }
+
+}
+
 @media (min-width: 641px) and (max-width: 1200px) {
 
     .content {
@@ -953,7 +960,7 @@ display: flex;
     }
 
     .page {
-        margin-top: 150px;
+        margin-top: 49px;
     }
 
     .about-xbox {
@@ -987,6 +994,13 @@ display: flex;
         padding-bottom: 23px;
         padding-top: 15px;
         margin-left: 0;
+    }
+
+}
+
+@media (max-width: 641px) and (orientation: landscape)  {
+    .box {
+        width: 43%;
     }
 
 }
@@ -1069,8 +1083,12 @@ display: flex;
         display: flex;
         flex-direction: column;
     }
+
+
+
     .main{
         max-width: 100%;
+        margin-top: 0;
     }
     .post {
         flex-direction: column;
