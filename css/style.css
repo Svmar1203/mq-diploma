@@ -160,7 +160,7 @@ body {
     opacity: 1;
 }
 
-.aboout {
+.about {
     margin-top: 36px;
 }
 
@@ -324,13 +324,11 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 23%;
+    width: 24%;
     height: 319px;
     background-color: rgba(0, 0, 0, 0.7);
 
 }
-
-
 
 .second {
     background-image: url(../images/trend2.jpg);
@@ -649,7 +647,6 @@ a {
 
 
 .nav-tegs-link {
-    height: 29px;
     align-items: center;
     align-content: space-between;
     text-decoration: none;
@@ -665,7 +662,7 @@ a {
     list-style-type: none;
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 16px;
-    padding-top: 37px;
+    padding-top: 20px;
 }
 .topic-title {
     margin-top: 30px;
@@ -701,8 +698,6 @@ a {
 
 
 }
-
-
 
 .topic-items-number {
     display: inline-block;
@@ -856,7 +851,7 @@ display: flex;
     background-repeat: no-repeat;
     background-size: 16px;
     display: block;
-    padding: 32px 31px;
+    margin: 30px 31px;
 }
 
 .social-icon-twitter {
@@ -938,11 +933,10 @@ display: flex;
     }
 
     .box  {
-        width: 47%;
+        width: 49%;
         display: block;
         margin-bottom: 15px;
     }
-
 
 
     .page-wrap {
@@ -1007,8 +1001,8 @@ display: flex;
 
 @media (max-width: 640px) {
 
-    /*header*/
 
+    /*header*/
     .content {
         max-width: 100%;
         margin: auto;
@@ -1023,10 +1017,15 @@ display: flex;
 
     .content__logo {
         display: block;
-        width: 100%;
+        max-width: 70%;
         margin: 0 auto;
 
     }
+
+    .cont {
+        width: 100%;
+    }
+
     .content h1 {
         width: 100%;
         font-family: open-sans-b, sans-serif;
@@ -1058,7 +1057,7 @@ display: flex;
         visibility: visible;
     }
 
-    .burger__line{
+    .burger__line {
         display: block;
         width: 23px;
         height: 3px;
@@ -1073,47 +1072,49 @@ display: flex;
         margin-bottom: 25px;
     }
 
-    .box:not(:last-child)  {
+    .box:not(:last-child) {
         margin-right: 0;
     }
 
     /*page main*/
-
     .page-wrap {
         display: flex;
         flex-direction: column;
     }
 
-
-
-    .main{
+    .main {
         max-width: 100%;
         margin-top: 0;
     }
+
     .post {
         flex-direction: column;
         margin-top: 16px;
     }
+
     .post-content {
         width: auto;
         display: block;
-        border-bottom: 3px  solid  #eeeeee;
+        border-bottom: 3px solid #eeeeee;
         padding-bottom: 23px;
         padding-top: 15px;
     }
+
     .aside {
         width: 100%;
     }
+
     /*wrapper*/
-.about {
-    max-width: 640px;
-}
+    .about {
+        max-width: 640px;
+    }
 
     .about-xbox:not(:last-child) {
         margin-right: 0;
     }
+
     .about-xbox {
-        width:100%;
+        width: 100%;
         margin-bottom: 25px;
     }
 
@@ -1136,11 +1137,6 @@ display: flex;
     }
 
 
-    .nav-tegs-items {
-        width: 23%;
-
-    }
-
     .nav-tegs-link {
         width: 100%;
         display: block;
@@ -1159,14 +1155,15 @@ display: flex;
         width: 100%
     }
 
-.form-label {
-cursor: pointer;
-    display: flex;
-    width: 100%;
-}
+    .form-label {
+        cursor: pointer;
+        display: flex;
+        width: 100%;
+    }
 
-.input-field {
-width: 100%;
+    .input-field {
+        width: 100%;
+    }
 }
 
 
