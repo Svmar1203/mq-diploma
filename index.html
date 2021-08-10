@@ -9,7 +9,9 @@
 <body>
 <form class="popupall">
     <div class="popup">
-        <button class="topbtn" type="button">X</button>
+        <button class="topbtn" type="button">
+            <img src="svg/form-x.svg" alt="закрыть окно">
+        </button>
         <div class="popup__wrap">
             <div class="title">
                 <h2>ваш фидбэк</h2>
@@ -20,7 +22,7 @@
                         </label>
                         <label>
                              <select class="select">
-                                <option value="kazdyi den" selected>Почти каждый день</option>
+                                <option value="kazdyi den" selected >Почти каждый день</option>
                                 <option value="raz v nedely">Раз в неделю</option>
                                 <option value="raz v mesyc">Раз в месяц</option>
                              </select>
@@ -33,11 +35,11 @@
                         </label>
                         <label class="radiobtn">
                             <input class="rb" type="radio" name="yes-no">
-                            <span class="yes"></span>Да
+                            <span class="yes yes-one">Да</span>
                         </label>
                         <label class="radiobtn">
                                 <input class="rb" type="radio" name="yes-no">
-                                 <span class="yes"></span>Нет
+                                 <span class="yes">Нет</span>
                         </label>
                 </div>
                 <div class="aboout">
@@ -370,7 +372,7 @@
                 </div>
             </section>
 
-            <form class="form">
+            <form class="formm">
                 <label class="form-label">
                     <span class="hidden">Поле ввода</span>
                     <input type="search" class="input-field" placeholder="Найти...">
