@@ -324,7 +324,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 24%;
+    width: 24.7%;
     height: 319px;
     background-color: rgba(0, 0, 0, 0.7);
 
@@ -851,7 +851,7 @@ display: flex;
     background-repeat: no-repeat;
     background-size: 16px;
     display: block;
-    margin: 30px 31px;
+    margin: 0 15px;
 }
 
 .social-icon-twitter {
@@ -935,7 +935,7 @@ display: flex;
     .box  {
         width: 49%;
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
 
@@ -1069,7 +1069,7 @@ display: flex;
     .box {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
 
     .box:not(:last-child) {
